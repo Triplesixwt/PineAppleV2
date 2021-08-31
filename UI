@@ -9,11 +9,15 @@
 ██║     ██║██║ ╚████║███████╗██║  ██║██║     ██║     ███████╗███████╗     ╚████╔╝ ███████╗
 ╚═╝     ╚═╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝     ╚══════╝╚══════╝      ╚═══╝  ╚══════╝
             
-**This shit doesn't have any ip logger just edited shit check the code will**                                                                              
-                                                                                    
+**This shit doesn't have any ip logger just edited shit check the code will**   
+  
+Script Made by AUX Pineapple All Credits For Machport and Agramane 
+
+this is just a custom version with a few more additions
+
+Official Discord: discord.gg/aux   
+                                                                             
 --]]
--- Gui to Lua
--- Version: 3.2
 
 -- Instances:
 local plr = game:GetService("Players").LocalPlayer
