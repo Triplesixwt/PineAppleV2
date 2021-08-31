@@ -19,7 +19,6 @@ Official Discord: discord.gg/aux
                                                                              
 --]]
 
--- Instances:
 local plr = game:GetService("Players").LocalPlayer
 local charr = game:GetService("Players").LocalPlayer.Character
 local players = game:GetService("Players"):GetPlayers()
@@ -99,55 +98,79 @@ local ClrS = Instance.new("TextButton")
 local UICorner_31 = Instance.new("UICorner")
 local Settings = Instance.new("TextLabel")
 local Logs = Instance.new("ScrollingFrame")
-local Clr = Instance.new("TextButton")
 local UICorner_32 = Instance.new("UICorner")
-local All = Instance.new("TextButton")
+local Clr = Instance.new("TextButton")
 local UICorner_33 = Instance.new("UICorner")
-local AutoScan = Instance.new("TextButton")
+local All = Instance.new("TextButton")
 local UICorner_34 = Instance.new("UICorner")
+local AutoScan = Instance.new("TextButton")
+local UICorner_35 = Instance.new("UICorner")
 local Store = Instance.new("TextButton")
+local UICorner_36 = Instance.new("UICorner")
 local Info = Instance.new("ScrollingFrame")
 local Close = Instance.new("TextButton")
 local TextLabel_5 = Instance.new("TextLabel")
 local Copy = Instance.new("TextButton")
 local Listen = Instance.new("TextButton")
+local UICorner_37 = Instance.new("UICorner")
 local Audio = Instance.new("Frame")
 local TextLabel_6 = Instance.new("TextLabel")
 local Click = Instance.new("TextButton")
 local ImageButton = Instance.new("ImageButton")
+local UICorner_38 = Instance.new("UICorner")
 local Title_2 = Instance.new("TextLabel")
 local Frame3 = Instance.new("Frame")
-local UICorner_35 = Instance.new("UICorner")
+local UICorner_39 = Instance.new("UICorner")
 local Frame_5 = Instance.new("Frame")
-local UICorner_36 = Instance.new("UICorner")
+local UICorner_40 = Instance.new("UICorner")
 local TextLabel_7 = Instance.new("TextLabel")
 local TextBox_5 = Instance.new("TextButton")
-local UICorner_37 = Instance.new("UICorner")
+local UICorner_41 = Instance.new("UICorner")
+local Frame_6 = Instance.new("Frame")
+local UICorner_42 = Instance.new("UICorner")
+local Tittle_2 = Instance.new("TextLabel")
+local Tittle_3 = Instance.new("TextLabel")
+local Tittle_4 = Instance.new("TextLabel")
+local Tittle_5 = Instance.new("TextLabel")
+local plricon = Instance.new("ImageLabel")
+local Corner = Instance.new("UICorner")
+local Tittle_6 = Instance.new("TextLabel")
 local CmdFrame = Instance.new("Frame")
 local CmdBar = Instance.new("TextBox")
-local Corner = Instance.new("UICorner")
+local Corner_2 = Instance.new("UICorner")
 local Back = Instance.new("Frame")
 local Holder = Instance.new("Frame")
 local CmdFrame_2 = Instance.new("Frame")
-local Corner_2 = Instance.new("UICorner")
+local Corner_3 = Instance.new("UICorner")
 local Label = Instance.new("TextLabel")
 local Commands = Instance.new("ScrollingFrame")
 local List = Instance.new("UIListLayout")
-local UICorner_38 = Instance.new("UICorner")
-local Sound = Instance.new("TextButton")
-local UICorner_39 = Instance.new("UICorner")
-local Log = Instance.new("TextButton")
-local UICorner_40 = Instance.new("UICorner")
-local Cmd = Instance.new("TextButton")
-local UICorner_41 = Instance.new("UICorner")
-local Sett = Instance.new("TextButton")
-local UICorner_42 = Instance.new("UICorner")
-local Viset = Instance.new("Frame")
 local UICorner_43 = Instance.new("UICorner")
-local Tittle_2 = Instance.new("TextLabel")
+local Sound = Instance.new("TextButton")
+local UICorner_44 = Instance.new("UICorner")
+local Log = Instance.new("TextButton")
+local UICorner_45 = Instance.new("UICorner")
+local Sett = Instance.new("TextButton")
+local UICorner_46 = Instance.new("UICorner")
+local Cmd = Instance.new("TextButton")
+local UICorner_47 = Instance.new("UICorner")
+local Frame4 = Instance.new("Frame")
+local Players = Instance.new("ScrollingFrame")
+local UIListLayout = Instance.new("UIListLayout")
+local Holder_2 = Instance.new("Frame")
+local PlrFrame = Instance.new("Frame")
+local Corner_4 = Instance.new("UICorner")
+local Icon = Instance.new("ImageLabel")
+local Corner_5 = Instance.new("UICorner")
+local PlrName = Instance.new("TextLabel")
+local PlrDisplay = Instance.new("TextLabel")
+local Check = Instance.new("TextLabel")
+local Viset = Instance.new("Frame")
+local UICorner_48 = Instance.new("UICorner")
+local Tittle_7 = Instance.new("TextLabel")
 local Version_2 = Instance.new("TextLabel")
 local Close_2 = Instance.new("TextButton")
-local UICorner_44 = Instance.new("UICorner")
+local UICorner_49 = Instance.new("UICorner")
 local WaveInt = Instance.new("TextLabel")
 local Speeed = Instance.new("TextLabel")
 local Distancee = Instance.new("TextLabel")
@@ -160,7 +183,7 @@ local SpeedBar = Instance.new("Frame")
 local DistanceSlider = Instance.new("TextButton")
 local DistanceBar = Instance.new("Frame")
 local Distance = Instance.new("TextBox")
-local Frame_6 = Instance.new("Frame")
+local Frame_7 = Instance.new("Frame")
 local commands = {"Rejoin", "Demesh", "lowhold"}
 
 --Properties:
@@ -173,7 +196,7 @@ Main.Parent = ScreenGui
 Main.BackgroundColor3 = Color3.fromRGB(40, 42, 47)
 Main.ClipsDescendants = true
 Main.Position = UDim2.new(0.280779451, 0, 0.290271133, 0)
-Main.Size = UDim2.new(0, 507, 0, 288)
+Main.Size = UDim2.new(0, 10, 0, 12)
 
 UICorner.Parent = Main
 
@@ -200,12 +223,12 @@ Version.Name = "Version"
 Version.Parent = Bar
 Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Version.BackgroundTransparency = 1.000
-Version.Position = UDim2.new(0.322015494, 0, 0.0954198465, 0)
-Version.Size = UDim2.new(0, 47, 0, 18)
+Version.Position = UDim2.new(0.314263612, 0, 0.088475436, 0)
+Version.Size = UDim2.new(0, 46, 0, 18)
 Version.Font = Enum.Font.Code
-Version.Text = "V1.2"
+Version.Text = "V2.2"
 Version.TextColor3 = Color3.fromRGB(255, 255, 127)
-Version.TextSize = 18.000
+Version.TextSize = 20.000
 Version.TextWrapped = true
 
 Frame1.Name = "Frame1"
@@ -518,6 +541,7 @@ Frame2.Parent = Main
 Frame2.BackgroundColor3 = Color3.fromRGB(40, 42, 47)
 Frame2.Position = UDim2.new(0.261000007, 0, 1, 0)
 Frame2.Size = UDim2.new(0, 374, 0, 288)
+Frame2.Visible = false
 
 UICorner_24.Parent = Frame2
 
@@ -680,6 +704,8 @@ Logs.MidImage = "rbxasset://textures/blackBkg_square.png"
 Logs.ScrollBarThickness = 10
 Logs.TopImage = "rbxasset://textures/blackBkg_square.png"
 
+UICorner_32.Parent = Logs
+
 Clr.Name = "Clr"
 Clr.Parent = PopupFrame_2
 Clr.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
@@ -691,7 +717,7 @@ Clr.Text = "Clr Unselected"
 Clr.TextColor3 = Color3.fromRGB(255, 255, 127)
 Clr.TextSize = 14.000
 
-UICorner_32.Parent = Clr
+UICorner_33.Parent = Clr
 
 All.Name = "All"
 All.Parent = PopupFrame_2
@@ -704,7 +730,7 @@ All.Text = "Game"
 All.TextColor3 = Color3.fromRGB(255, 255, 127)
 All.TextSize = 14.000
 
-UICorner_33.Parent = All
+UICorner_34.Parent = All
 
 AutoScan.Name = "AutoScan"
 AutoScan.Parent = PopupFrame_2
@@ -717,7 +743,7 @@ AutoScan.Text = "Auto Scan"
 AutoScan.TextColor3 = Color3.fromRGB(255, 255, 127)
 AutoScan.TextSize = 14.000
 
-UICorner_34.Parent = AutoScan
+UICorner_35.Parent = AutoScan
 
 Store.Name = "Store"
 Store.Parent = PopupFrame_2
@@ -735,6 +761,8 @@ Store.TextScaled = true
 Store.TextSize = 14.000
 Store.TextTransparency = 0.500
 Store.TextWrapped = true
+
+UICorner_36.Parent = Store
 
 Info.Name = "Info"
 Info.Parent = PopupFrame_2
@@ -795,6 +823,8 @@ Listen.Text = "Listen"
 Listen.TextColor3 = Color3.fromRGB(255, 255, 127)
 Listen.TextSize = 14.000
 
+UICorner_37.Parent = Info
+
 Audio.Name = "Audio"
 Audio.Parent = PopupFrame_2
 Audio.BackgroundColor3 = Color3.fromRGB(66, 66, 66)
@@ -836,6 +866,8 @@ ImageButton.Size = UDim2.new(0, 19, 0, 20)
 ImageButton.Image = "http://www.roblox.com/asset/?id=176572847"
 ImageButton.ImageColor3 = Color3.fromRGB(255, 255, 127)
 
+UICorner_38.Parent = Audio
+
 Title_2.Name = "Title"
 Title_2.Parent = PopupFrame_2
 Title_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -852,18 +884,18 @@ Title_2.TextSize = 16.000
 Frame3.Name = "Frame3"
 Frame3.Parent = Main
 Frame3.BackgroundColor3 = Color3.fromRGB(40, 42, 47)
-Frame3.Position = UDim2.new(0.261133671, 0, 1, 0)
+Frame3.Position = UDim2.new(0.261000007, 0, 1, 0)
 Frame3.Size = UDim2.new(0, 374, 0, 288)
 Frame3.Visible = false
 
-UICorner_35.Parent = Frame3
+UICorner_39.Parent = Frame3
 
 Frame_5.Parent = Frame3
 Frame_5.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
-Frame_5.Position = UDim2.new(0.29411763, 0, 0.71875, 0)
+Frame_5.Position = UDim2.new(0.286096245, 0, 0.829861104, 0)
 Frame_5.Size = UDim2.new(0, 154, 0, 31)
 
-UICorner_36.Parent = Frame_5
+UICorner_40.Parent = Frame_5
 
 TextLabel_7.Parent = Frame_5
 TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -886,7 +918,84 @@ TextBox_5.Text = ""
 TextBox_5.TextColor3 = Color3.fromRGB(255, 255, 127)
 TextBox_5.TextSize = 14.000
 
-UICorner_37.Parent = TextBox_5
+UICorner_41.Parent = TextBox_5
+
+Frame_6.Parent = Frame3
+Frame_6.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
+Frame_6.Position = UDim2.new(0.032728225, 0, 0.0659722239, 0)
+Frame_6.Size = UDim2.new(0, 345, 0, 191)
+
+UICorner_42.Parent = Frame_6
+
+Tittle_2.Name = "Tittle"
+Tittle_2.Parent = Frame_6
+Tittle_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tittle_2.BackgroundTransparency = 1.000
+Tittle_2.Position = UDim2.new(0.0118542658, 0, 0.448984176, 0)
+Tittle_2.Size = UDim2.new(0, 335, 0, 36)
+Tittle_2.Font = Enum.Font.Gotham
+Tittle_2.Text = "This Script Is Not an Official Version"
+Tittle_2.TextColor3 = Color3.fromRGB(255, 255, 127)
+Tittle_2.TextSize = 18.000
+Tittle_2.TextWrapped = true
+
+Tittle_3.Name = "Tittle"
+Tittle_3.Parent = Frame_6
+Tittle_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tittle_3.BackgroundTransparency = 1.000
+Tittle_3.Position = UDim2.new(0.00289855083, 0, 0.561536849, 0)
+Tittle_3.Size = UDim2.new(0, 347, 0, 43)
+Tittle_3.Font = Enum.Font.Gotham
+Tittle_3.Text = "It's Just a Custom Version And Other Additions"
+Tittle_3.TextColor3 = Color3.fromRGB(255, 255, 127)
+Tittle_3.TextSize = 14.000
+Tittle_3.TextWrapped = true
+
+Tittle_4.Name = "Tittle"
+Tittle_4.Parent = Frame_6
+Tittle_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tittle_4.BackgroundTransparency = 1.000
+Tittle_4.Position = UDim2.new(0.00246847398, 0, 0.668853879, 0)
+Tittle_4.Size = UDim2.new(0, 347, 0, 43)
+Tittle_4.Font = Enum.Font.Gotham
+Tittle_4.Text = "To Get Original Script Between"
+Tittle_4.TextColor3 = Color3.fromRGB(255, 255, 127)
+Tittle_4.TextSize = 16.000
+Tittle_4.TextWrapped = true
+
+Tittle_5.Name = "Tittle"
+Tittle_5.Parent = Frame_6
+Tittle_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tittle_5.BackgroundTransparency = 1.000
+Tittle_5.Position = UDim2.new(0.164130792, 0, 0.800233364, 0)
+Tittle_5.Size = UDim2.new(0, 227, 0, 43)
+Tittle_5.Font = Enum.Font.Gotham
+Tittle_5.Text = "Discord.gg/aux"
+Tittle_5.TextColor3 = Color3.fromRGB(255, 255, 127)
+Tittle_5.TextSize = 16.000
+Tittle_5.TextWrapped = true
+
+plricon.Name = "plricon"
+plricon.Parent = Frame_6
+plricon.BackgroundColor3 = Color3.fromRGB(72, 76, 83)
+plricon.Position = UDim2.new(0.425397009, 0, 0.0391671546, 0)
+plricon.Size = UDim2.new(0, 45, 0, 41)
+
+Corner.CornerRadius = UDim.new(0, 10)
+Corner.Name = "Corner"
+Corner.Parent = plricon
+
+Tittle_6.Name = "Tittle"
+Tittle_6.Parent = Frame_6
+Tittle_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tittle_6.BackgroundTransparency = 1.000
+Tittle_6.Position = UDim2.new(0.0233670883, 0, 0.255266905, 0)
+Tittle_6.Size = UDim2.new(0, 322, 0, 29)
+Tittle_6.Font = Enum.Font.Gotham
+Tittle_6.Text = "Name"
+Tittle_6.TextColor3 = Color3.fromRGB(255, 255, 127)
+Tittle_6.TextSize = 18.000
+Tittle_6.TextWrapped = true
 
 CmdFrame.Name = "CmdFrame"
 CmdFrame.Parent = Main
@@ -908,9 +1017,9 @@ CmdBar.Text = ""
 CmdBar.TextColor3 = Color3.fromRGB(255, 255, 127)
 CmdBar.TextSize = 16.000
 
-Corner.CornerRadius = UDim.new(0, 6)
-Corner.Name = "Corner"
-Corner.Parent = CmdBar
+Corner_2.CornerRadius = UDim.new(0, 6)
+Corner_2.Name = "Corner"
+Corner_2.Parent = CmdBar
 
 Back.Name = "Back"
 Back.Parent = CmdFrame
@@ -931,8 +1040,8 @@ CmdFrame_2.BackgroundColor3 = Color3.fromRGB(46, 46, 52)
 CmdFrame_2.Position = UDim2.new(0.346960038, 0, 0.151527405, 0)
 CmdFrame_2.Size = UDim2.new(0, 285, 0, 18)
 
-Corner_2.Name = "Corner"
-Corner_2.Parent = CmdFrame_2
+Corner_3.Name = "Corner"
+Corner_3.Parent = CmdFrame_2
 
 Label.Name = "Label"
 Label.Parent = CmdFrame_2
@@ -958,7 +1067,7 @@ List.Name = "List"
 List.Parent = Commands
 List.SortOrder = Enum.SortOrder.LayoutOrder
 
-UICorner_38.Parent = Back
+UICorner_43.Parent = Back
 
 Sound.Name = "Sound"
 Sound.Parent = Main
@@ -971,7 +1080,7 @@ Sound.Text = "Visualizer"
 Sound.TextColor3 = Color3.fromRGB(255, 255, 127)
 Sound.TextSize = 14.000
 
-UICorner_39.Parent = Sound
+UICorner_44.Parent = Sound
 
 Log.Name = "Log"
 Log.Parent = Main
@@ -983,7 +1092,19 @@ Log.Text = "Audio-Log"
 Log.TextColor3 = Color3.fromRGB(255, 255, 127)
 Log.TextSize = 14.000
 
-UICorner_40.Parent = Log
+UICorner_45.Parent = Log
+
+Sett.Name = "Sett"
+Sett.Parent = Main
+Sett.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Sett.Position = UDim2.new(0.0197257232, 0, 0.707538128, 0)
+Sett.Size = UDim2.new(0, 111, 0, 30)
+Sett.Font = Enum.Font.Gotham
+Sett.Text = "Settings"
+Sett.TextColor3 = Color3.fromRGB(255, 255, 127)
+Sett.TextSize = 14.000
+
+UICorner_46.Parent = Sett
 
 Cmd.Name = "Cmd"
 Cmd.Parent = Main
@@ -995,19 +1116,92 @@ Cmd.Text = "Commands"
 Cmd.TextColor3 = Color3.fromRGB(255, 255, 127)
 Cmd.TextSize = 14.000
 
-UICorner_41.Parent = Cmd
+UICorner_47.Parent = Cmd
 
-Sett.Name = "Sett"
-Sett.Parent = Main
-Sett.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
-Sett.Position = UDim2.new(0.0197257232, 0, 0.704065919, 0)
-Sett.Size = UDim2.new(0, 111, 0, 30)
-Sett.Font = Enum.Font.Gotham
-Sett.Text = "Settings"
-Sett.TextColor3 = Color3.fromRGB(255, 255, 127)
-Sett.TextSize = 14.000
+Frame4.Name = "Frame4"
+Frame4.Parent = Main
+Frame4.BackgroundColor3 = Color3.fromRGB(41, 42, 47)
+Frame4.BorderSizePixel = 0
+Frame4.Position = UDim2.new(0.261000007, 0, 1, 0)
+Frame4.Size = UDim2.new(0, 374, 0, 288)
+Frame4.Visible = false
 
-UICorner_42.Parent = Sett
+Players.Name = "Players"
+Players.Parent = Frame4
+Players.Active = true
+Players.BackgroundColor3 = Color3.fromRGB(39, 40, 44)
+Players.BorderSizePixel = 0
+Players.Position = UDim2.new(0.00118081644, 0, -0.00244900584, 0)
+Players.Size = UDim2.new(0, 374, 0, 288)
+Players.ScrollBarThickness = 0
+
+UIListLayout.Parent = Players
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.Padding = UDim.new(0, -3)
+
+Holder_2.Name = "Holder"
+Holder_2.Parent = Frame4
+Holder_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Holder_2.BackgroundTransparency = 1.000
+Holder_2.Size = UDim2.new(0, 374, 0, 64)
+Holder_2.Visible = false
+
+PlrFrame.Name = "PlrFrame"
+PlrFrame.Parent = Holder_2
+PlrFrame.BackgroundColor3 = Color3.fromRGB(46, 46, 52)
+PlrFrame.Position = UDim2.new(0.0265372358, 0, 0.276041508, 0)
+PlrFrame.Size = UDim2.new(0, 355, 0, 50)
+
+Corner_4.CornerRadius = UDim.new(0, 6)
+Corner_4.Name = "Corner"
+Corner_4.Parent = PlrFrame
+
+Icon.Name = "Icon"
+Icon.Parent = PlrFrame
+Icon.BackgroundColor3 = Color3.fromRGB(39, 40, 44)
+Icon.Position = UDim2.new(0.0152671756, 0, 0.0600000024, 0)
+Icon.Size = UDim2.new(0, 44, 0, 43)
+
+Corner_5.CornerRadius = UDim.new(0, 6)
+Corner_5.Name = "Corner"
+Corner_5.Parent = Icon
+
+PlrName.Name = "PlrName"
+PlrName.Parent = PlrFrame
+PlrName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlrName.BackgroundTransparency = 1.000
+PlrName.Position = UDim2.new(0.16956073, 0, 0.412883312, 0)
+PlrName.Size = UDim2.new(0, 234, 0, 16)
+PlrName.Font = Enum.Font.SourceSansSemibold
+PlrName.Text = "@Player.Name"
+PlrName.TextColor3 = Color3.fromRGB(163, 163, 163)
+PlrName.TextSize = 16.000
+PlrName.TextXAlignment = Enum.TextXAlignment.Left
+
+PlrDisplay.Name = "PlrDisplay"
+PlrDisplay.Parent = PlrFrame
+PlrDisplay.BackgroundColor3 = Color3.fromRGB(255, 255, 127)
+PlrDisplay.BackgroundTransparency = 1.000
+PlrDisplay.Position = UDim2.new(0.171978027, 0, 0.0500000045, 0)
+PlrDisplay.Size = UDim2.new(0, 234, 0, 16)
+PlrDisplay.Font = Enum.Font.SourceSansSemibold
+PlrDisplay.Text = "Player.Display"
+PlrDisplay.TextColor3 = Color3.fromRGB(255, 255, 127)
+PlrDisplay.TextSize = 18.000
+PlrDisplay.TextXAlignment = Enum.TextXAlignment.Left
+
+Check.Name = "Check"
+Check.Parent = PlrFrame
+Check.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Check.BackgroundTransparency = 1.000
+Check.Position = UDim2.new(0.150127232, 0, 0.752883315, 0)
+Check.Size = UDim2.new(0, 90, 0, 11)
+Check.Visible = false
+Check.Font = Enum.Font.SourceSansSemibold
+Check.Text = "Verts-Hub User"
+Check.TextColor3 = Color3.fromRGB(126, 126, 126)
+Check.TextSize = 13.000
+Check.TextXAlignment = Enum.TextXAlignment.Left
 
 Viset.Name = "Viset"
 Viset.Parent = ScreenGui
@@ -1017,19 +1211,19 @@ Viset.Position = UDim2.new(0.882639527, 0, 0.493620425, 0)
 Viset.Size = UDim2.new(0, 211, 0, 288)
 Viset.Visible = false
 
-UICorner_43.Parent = Viset
+UICorner_48.Parent = Viset
 
-Tittle_2.Name = "Tittle"
-Tittle_2.Parent = Viset
-Tittle_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Tittle_2.BackgroundTransparency = 1.000
-Tittle_2.Position = UDim2.new(0.28023091, 0, 0.00901187584, 0)
-Tittle_2.Size = UDim2.new(0, 92, 0, 19)
-Tittle_2.Font = Enum.Font.Gotham
-Tittle_2.Text = "Visualizer"
-Tittle_2.TextColor3 = Color3.fromRGB(255, 255, 127)
-Tittle_2.TextSize = 18.000
-Tittle_2.TextWrapped = true
+Tittle_7.Name = "Tittle"
+Tittle_7.Parent = Viset
+Tittle_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tittle_7.BackgroundTransparency = 1.000
+Tittle_7.Position = UDim2.new(0.28023091, 0, 0.00901187584, 0)
+Tittle_7.Size = UDim2.new(0, 92, 0, 19)
+Tittle_7.Font = Enum.Font.Gotham
+Tittle_7.Text = "Visualizer"
+Tittle_7.TextColor3 = Color3.fromRGB(255, 255, 127)
+Tittle_7.TextSize = 18.000
+Tittle_7.TextWrapped = true
 
 Version_2.Name = "Version"
 Version_2.Parent = Viset
@@ -1056,7 +1250,7 @@ Close_2.TextColor3 = Color3.fromRGB(255, 0, 0)
 Close_2.TextSize = 30.000
 Close_2.TextWrapped = true
 
-UICorner_44.Parent = Close_2
+UICorner_49.Parent = Close_2
 
 WaveInt.Name = "Wave Int"
 WaveInt.Parent = Viset
@@ -1183,15 +1377,15 @@ Distance.TextScaled = true
 Distance.TextSize = 22.000
 Distance.TextWrapped = true
 
-Frame_6.Parent = Viset
-Frame_6.BackgroundColor3 = Color3.fromRGB(255, 255, 127)
-Frame_6.BorderColor3 = Color3.fromRGB(255, 255, 127)
-Frame_6.Position = UDim2.new(0, 0, 0.180856973, 0)
-Frame_6.Size = UDim2.new(0, 210, 0, 0)
+Frame_7.Parent = Viset
+Frame_7.BackgroundColor3 = Color3.fromRGB(255, 255, 127)
+Frame_7.BorderColor3 = Color3.fromRGB(255, 255, 127)
+Frame_7.Position = UDim2.new(0, 0, 0.180856973, 0)
+Frame_7.Size = UDim2.new(0, 210, 0, 0)
 
 -- Scripts:
 
-local function AKUQ_fake_script() -- TextBox.LocalScript 
+local function ALTOV_fake_script() -- TextBox.LocalScript 
 	local script = Instance.new('LocalScript', TextBox)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1231,8 +1425,8 @@ local function AKUQ_fake_script() -- TextBox.LocalScript
 		print("done")
 	end)
 end
-coroutine.wrap(AKUQ_fake_script)()
-local function YJRAF_fake_script() -- TextBox_2.LocalScript 
+coroutine.wrap(ALTOV_fake_script)()
+local function BSXRYUB_fake_script() -- TextBox_2.LocalScript 
 	local script = Instance.new('LocalScript', TextBox_2)
 
 	local currentid=""
@@ -1438,8 +1632,8 @@ local function YJRAF_fake_script() -- TextBox_2.LocalScript
 		vis(script.Parent.Parent.AudioId.Text:gsub("%D+", ""),0)
 	end)
 end
-coroutine.wrap(YJRAF_fake_script)()
-local function VSSIC_fake_script() -- TextBox_3.LocalScript 
+coroutine.wrap(BSXRYUB_fake_script)()
+local function XXGRLCE_fake_script() -- TextBox_3.LocalScript 
 	local script = Instance.new('LocalScript', TextBox_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1457,8 +1651,8 @@ local function VSSIC_fake_script() -- TextBox_3.LocalScript
 		end))
 	end)
 end
-coroutine.wrap(VSSIC_fake_script)()
-local function NVSNN_fake_script() -- TextBox_4.LocalScript 
+coroutine.wrap(XXGRLCE_fake_script)()
+local function DDVMD_fake_script() -- TextBox_4.LocalScript 
 	local script = Instance.new('LocalScript', TextBox_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1495,8 +1689,8 @@ local function NVSNN_fake_script() -- TextBox_4.LocalScript
 		end	
 	end)
 end
-coroutine.wrap(NVSNN_fake_script)()
-local function XRXTJWR_fake_script() -- Frame.LocalScript 
+coroutine.wrap(DDVMD_fake_script)()
+local function JHXS_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	_G.VisAngle="X"
@@ -1504,8 +1698,8 @@ local function XRXTJWR_fake_script() -- Frame.LocalScript
 	_G.WavesAngle="Y"
 	_G.BoomboxDependantSpeed="Off"
 end
-coroutine.wrap(XRXTJWR_fake_script)()
-local function RVXUXM_fake_script() -- Visett.OpenSe 
+coroutine.wrap(JHXS_fake_script)()
+local function DBGKIY_fake_script() -- Visett.OpenSe 
 	local script = Instance.new('LocalScript', Visett)
 
 	local viss = script.Parent.Parent.Parent.Parent.Parent.Viset
@@ -1514,8 +1708,8 @@ local function RVXUXM_fake_script() -- Visett.OpenSe
 	viss.Visible = true
 	end)
 end
-coroutine.wrap(RVXUXM_fake_script)()
-local function XHASN_fake_script() -- MAY.LocalScript 
+coroutine.wrap(DBGKIY_fake_script)()
+local function XZPLBG_fake_script() -- MAY.LocalScript 
 	local script = Instance.new('LocalScript', MAY)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1531,8 +1725,8 @@ local function XHASN_fake_script() -- MAY.LocalScript
 		end
 	end
 end
-coroutine.wrap(XHASN_fake_script)()
-local function RHRXPVV_fake_script() -- MAX.LocalScript 
+coroutine.wrap(XZPLBG_fake_script)()
+local function ZEZOG_fake_script() -- MAX.LocalScript 
 	local script = Instance.new('LocalScript', MAX)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1548,8 +1742,8 @@ local function RHRXPVV_fake_script() -- MAX.LocalScript
 		end
 	end
 end
-coroutine.wrap(RHRXPVV_fake_script)()
-local function VBYUMIM_fake_script() -- MAZ.LocalScript 
+coroutine.wrap(ZEZOG_fake_script)()
+local function VQVQ_fake_script() -- MAZ.LocalScript 
 	local script = Instance.new('LocalScript', MAZ)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1565,8 +1759,8 @@ local function VBYUMIM_fake_script() -- MAZ.LocalScript
 		end
 	end
 end
-coroutine.wrap(VBYUMIM_fake_script)()
-local function LFBHUD_fake_script() -- MA8.LocalScript 
+coroutine.wrap(VQVQ_fake_script)()
+local function HURDQNJ_fake_script() -- MA8.LocalScript 
 	local script = Instance.new('LocalScript', MA8)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1582,8 +1776,8 @@ local function LFBHUD_fake_script() -- MA8.LocalScript
 		end
 	end
 end
-coroutine.wrap(LFBHUD_fake_script)()
-local function XWLWWK_fake_script() -- WAX.LocalScript 
+coroutine.wrap(HURDQNJ_fake_script)()
+local function PXSZ_fake_script() -- WAX.LocalScript 
 	local script = Instance.new('LocalScript', WAX)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1599,8 +1793,8 @@ local function XWLWWK_fake_script() -- WAX.LocalScript
 		end
 	end
 end
-coroutine.wrap(XWLWWK_fake_script)()
-local function ETYAQRQ_fake_script() -- WAY.LocalScript 
+coroutine.wrap(PXSZ_fake_script)()
+local function YDTUXDT_fake_script() -- WAY.LocalScript 
 	local script = Instance.new('LocalScript', WAY)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1616,8 +1810,8 @@ local function ETYAQRQ_fake_script() -- WAY.LocalScript
 		end
 	end
 end
-coroutine.wrap(ETYAQRQ_fake_script)()
-local function NAEJNS_fake_script() -- WAZ.LocalScript 
+coroutine.wrap(YDTUXDT_fake_script)()
+local function SNHQO_fake_script() -- WAZ.LocalScript 
 	local script = Instance.new('LocalScript', WAZ)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1633,8 +1827,8 @@ local function NAEJNS_fake_script() -- WAZ.LocalScript
 		end
 	end
 end
-coroutine.wrap(NAEJNS_fake_script)()
-local function YCFH_fake_script() -- WAUP.LocalScript 
+coroutine.wrap(SNHQO_fake_script)()
+local function EGCD_fake_script() -- WAUP.LocalScript 
 	local script = Instance.new('LocalScript', WAUP)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1650,8 +1844,8 @@ local function YCFH_fake_script() -- WAUP.LocalScript
 		end
 	end
 end
-coroutine.wrap(YCFH_fake_script)()
-local function XJCG_fake_script() -- WavesOn.LocalScript 
+coroutine.wrap(EGCD_fake_script)()
+local function SZLR_fake_script() -- WavesOn.LocalScript 
 	local script = Instance.new('LocalScript', WavesOn)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1669,8 +1863,8 @@ local function XJCG_fake_script() -- WavesOn.LocalScript
 		end
 	end 
 end
-coroutine.wrap(XJCG_fake_script)()
-local function EUASQC_fake_script() -- Main.Dragify 
+coroutine.wrap(SZLR_fake_script)()
+local function NHZIERX_fake_script() -- Main.Dragify 
 	local script = Instance.new('LocalScript', Main)
 
 	local UIS = game:GetService("UserInputService")
@@ -1711,8 +1905,8 @@ local function EUASQC_fake_script() -- Main.Dragify
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(EUASQC_fake_script)()
-local function PTNJPOM_fake_script() -- TextBox_5.LocalScript 
+coroutine.wrap(NHZIERX_fake_script)()
+local function CANXVGR_fake_script() -- TextBox_5.LocalScript 
 	local script = Instance.new('LocalScript', TextBox_5)
 
 	_G.grabtools=false
@@ -1743,8 +1937,34 @@ local function PTNJPOM_fake_script() -- TextBox_5.LocalScript
 		_G.grabtools=not _G.grabtools
 	end)
 end
-coroutine.wrap(PTNJPOM_fake_script)()
-local function WWLALS_fake_script() -- Sound.LocalScript 
+coroutine.wrap(CANXVGR_fake_script)()
+local function TDEHVEF_fake_script() -- plricon.LocalScript 
+	local script = Instance.new('LocalScript', plricon)
+
+	local Players = game:GetService("Players")
+	
+	local player = Players.LocalPlayer
+	
+	-- Fetch the thumbnail
+	local userId = player.UserId
+	local thumbType = Enum.ThumbnailType.HeadShot
+	local thumbSize = Enum.ThumbnailSize.Size420x420
+	local content, isReady = Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
+	
+	-- Set the ImageLabel's content to the user thumbnail
+	local imageLabel = script.Parent
+	imageLabel.Image = content
+	imageLabel.Size = UDim2.new(0, 45,0, 41)
+	
+end
+coroutine.wrap(TDEHVEF_fake_script)()
+local function DZYPQ_fake_script() -- Tittle_6.LocalScript 
+	local script = Instance.new('LocalScript', Tittle_6)
+
+	script.Parent.Text = game.Players.LocalPlayer.Name
+end
+coroutine.wrap(DZYPQ_fake_script)()
+local function WTMEDC_fake_script() -- Sound.LocalScript 
 	local script = Instance.new('LocalScript', Sound)
 
 	
@@ -1774,6 +1994,13 @@ local function WWLALS_fake_script() -- Sound.LocalScript
 		script.Parent.Parent.CmdFrame.Visible = false
 	end)
 	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Frame4:TweenPosition(UDim2.new(0.254, 0,-1, 0),Enum.EasingDirection.In,Enum.EasingStyle.Sine,0.3,true)
+		wait(0.3)
+		script.Parent.Parent.Frame4.Visible = false
+	end)
+	
+	
 	-- BUTTON COLOR --
 	
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1792,9 +2019,12 @@ local function WWLALS_fake_script() -- Sound.LocalScript
 		script.Parent.Parent.Cmd.BackgroundColor3=Color3.fromRGB(20, 20, 20)
 	end)
 	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Players.BackgroundColor3=Color3.fromRGB(20, 20, 20)
+	end)
 end
-coroutine.wrap(WWLALS_fake_script)()
-local function LXKCAL_fake_script() -- Log.LocalScript 
+coroutine.wrap(WTMEDC_fake_script)()
+local function GQTTLFV_fake_script() -- Log.LocalScript 
 	local script = Instance.new('LocalScript', Log)
 
 	
@@ -1824,6 +2054,13 @@ local function LXKCAL_fake_script() -- Log.LocalScript
 		script.Parent.Parent.CmdFrame.Visible = false
 	end)
 	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Frame4:TweenPosition(UDim2.new(0.254, 0,-1, 0),Enum.EasingDirection.In,Enum.EasingStyle.Sine,0.3,true)
+		wait(0.3)
+		script.Parent.Parent.Frame4.Visible = false
+	end)
+	
+	
 	-- BUTTON COLOR --
 	
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1842,9 +2079,72 @@ local function LXKCAL_fake_script() -- Log.LocalScript
 		script.Parent.Parent.Cmd.BackgroundColor3=Color3.fromRGB(20, 20, 20)
 	end)
 	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Players.BackgroundColor3=Color3.fromRGB(20, 20, 20)
+	end)
 end
-coroutine.wrap(LXKCAL_fake_script)()
-local function FNAWVLN_fake_script() -- Cmd.LocalScript 
+coroutine.wrap(GQTTLFV_fake_script)()
+local function PLAR_fake_script() -- Sett.LocalScript 
+	local script = Instance.new('LocalScript', Sett)
+
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Frame1:TweenPosition(UDim2.new(0.254, 0,-1, 0),Enum.EasingDirection.In,Enum.EasingStyle.Sine,0.3,true)
+		wait(0.3)
+		script.Parent.Parent.Frame1.Visible = false
+		script.Parent.Parent.Scripts:TweenPosition(UDim2.new(0.254, 0,-1, 0),Enum.EasingDirection.In,Enum.EasingStyle.Sine,0.3,true)
+		wait(0.3)
+		script.Parent.Parent.Scripts.Visible = false
+	end)
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Frame3.Visible = true
+		wait(0.2)
+		script.Parent.Parent.Frame3:TweenPosition(UDim2.new(0.261, 0,0, 0),Enum.EasingDirection.In,Enum.EasingStyle.Sine,0.3,true)
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Frame2:TweenPosition(UDim2.new(0.254, 0,-1, 0),Enum.EasingDirection.In,Enum.EasingStyle.Sine,0.3,true)
+		wait(0.3)
+		script.Parent.Parent.Frame2.Visible = false
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.CmdFrame:TweenPosition(UDim2.new(0.254, 0,-1, 0),Enum.EasingDirection.In,Enum.EasingStyle.Sine,0.3,true)
+		wait(0.3)
+		script.Parent.Parent.CmdFrame.Visible = false
+	end)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Frame4:TweenPosition(UDim2.new(0.254, 0,-1, 0),Enum.EasingDirection.In,Enum.EasingStyle.Sine,0.3,true)
+		wait(0.3)
+		script.Parent.Parent.Frame4.Visible = false
+	end)
+	
+	
+	-- BUTTON COLOR --
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Log.BackgroundColor3=Color3.fromRGB(20, 20, 20)
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Sound.BackgroundColor3=Color3.fromRGB(20, 20, 20)
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Sett.BackgroundColor3=Color3.fromRGB(66, 66, 66)
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Cmd.BackgroundColor3=Color3.fromRGB(20, 20, 20)
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Players.BackgroundColor3=Color3.fromRGB(20, 20, 20)
+	end)
+	
+end
+coroutine.wrap(PLAR_fake_script)()
+local function TMRBW_fake_script() -- Cmd.LocalScript 
 	local script = Instance.new('LocalScript', Cmd)
 
 	
@@ -1874,6 +2174,13 @@ local function FNAWVLN_fake_script() -- Cmd.LocalScript
 		script.Parent.Parent.Frame2.Visible = false
 	end)
 	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Frame4:TweenPosition(UDim2.new(0.254, 0,-1, 0),Enum.EasingDirection.In,Enum.EasingStyle.Sine,0.3,true)
+		wait(0.3)
+		script.Parent.Parent.Frame4.Visible = false
+	end)
+	
+	
 	-- BUTTON COLOR --
 	
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1892,60 +2199,13 @@ local function FNAWVLN_fake_script() -- Cmd.LocalScript
 		script.Parent.Parent.Cmd.BackgroundColor3=Color3.fromRGB(66, 66, 66)
 	end)
 	
-end
-coroutine.wrap(FNAWVLN_fake_script)()
-local function LPNQAB_fake_script() -- Sett.LocalScript 
-	local script = Instance.new('LocalScript', Sett)
-
-	
-	script.Parent.MouseButton1Down:Connect(function()
-		script.Parent.Parent.Frame1:TweenPosition(UDim2.new(0.254, 0,-1, 0),Enum.EasingDirection.In,Enum.EasingStyle.Sine,0.3,true)
-		wait(0.3)
-		script.Parent.Parent.Frame1.Visible = false
-		script.Parent.Parent.Scripts:TweenPosition(UDim2.new(0.254, 0,-1, 0),Enum.EasingDirection.In,Enum.EasingStyle.Sine,0.3,true)
-		wait(0.3)
-		script.Parent.Parent.Scripts.Visible = false
-	end)
-	script.Parent.MouseButton1Down:Connect(function()
-		script.Parent.Parent.Frame3.Visible = true
-		wait(0.2)
-		script.Parent.Parent.Frame3:TweenPosition(UDim2.new(0.261, 0,0, 0),Enum.EasingDirection.In,Enum.EasingStyle.Sine,0.3,true)
-	end)
-	
 	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.Frame2:TweenPosition(UDim2.new(0.254, 0,-1, 0),Enum.EasingDirection.In,Enum.EasingStyle.Sine,0.3,true)
-		wait(0.3)
-		script.Parent.Parent.Frame2.Visible = false
+		script.Parent.Parent.Players.BackgroundColor3=Color3.fromRGB(20, 20, 20)
 	end)
-	
-	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.CmdFrame:TweenPosition(UDim2.new(0.254, 0,-1, 0),Enum.EasingDirection.In,Enum.EasingStyle.Sine,0.3,true)
-		wait(0.3)
-		script.Parent.Parent.CmdFrame.Visible = false
-	end)
-	
-	-- BUTTON COLOR --
-	
-	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.Log.BackgroundColor3=Color3.fromRGB(20, 20, 20)
-	end)
-	
-	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.Sound.BackgroundColor3=Color3.fromRGB(20, 20, 20)
-	end)
-	
-	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.Sett.BackgroundColor3=Color3.fromRGB(66, 66, 66)
-	end)
-	
-	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.Cmd.BackgroundColor3=Color3.fromRGB(20, 20, 20)
-	end)
-	
 	
 end
-coroutine.wrap(LPNQAB_fake_script)()
-local function RVRV_fake_script() -- Viset.SliderManager 
+coroutine.wrap(TMRBW_fake_script)()
+local function UFKABA_fake_script() -- Viset.SliderManager 
 	local script = Instance.new('LocalScript', Viset)
 
 	local slider = script.Parent.SpeedSlider
@@ -2076,8 +2336,8 @@ local function RVRV_fake_script() -- Viset.SliderManager
 		end
 	end)
 end
-coroutine.wrap(RVRV_fake_script)()
-local function WCSTE_fake_script() -- Close_2.LocalScript 
+coroutine.wrap(UFKABA_fake_script)()
+local function NJARM_fake_script() -- Close_2.LocalScript 
 	local script = Instance.new('LocalScript', Close_2)
 
 	local viss = script.Parent.Parent.Parent.Viset
@@ -2088,8 +2348,8 @@ local function WCSTE_fake_script() -- Close_2.LocalScript
 	
 	
 end
-coroutine.wrap(WCSTE_fake_script)()
-local function XABNO_fake_script() -- Speed.LocalScript 
+coroutine.wrap(NJARM_fake_script)()
+local function WKRLIID_fake_script() -- Speed.LocalScript 
 	local script = Instance.new('LocalScript', Speed)
 
 	_G[script.Parent.Name]=1
@@ -2099,8 +2359,8 @@ local function XABNO_fake_script() -- Speed.LocalScript
 		end
 	end)
 end
-coroutine.wrap(XABNO_fake_script)()
-local function ATYOUF_fake_script() -- WaveInt_2.LocalScript 
+coroutine.wrap(WKRLIID_fake_script)()
+local function WHXOT_fake_script() -- WaveInt_2.LocalScript 
 	local script = Instance.new('LocalScript', WaveInt_2)
 
 	_G[script.Parent.Name]=3
@@ -2110,8 +2370,8 @@ local function ATYOUF_fake_script() -- WaveInt_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(ATYOUF_fake_script)()
-local function NXRVCMO_fake_script() -- Distance.LocalScript 
+coroutine.wrap(WHXOT_fake_script)()
+local function RXXAA_fake_script() -- Distance.LocalScript 
 	local script = Instance.new('LocalScript', Distance)
 
 	_G[script.Parent.Name]=5
@@ -2121,7 +2381,8 @@ local function NXRVCMO_fake_script() -- Distance.LocalScript
 		end
 	end)
 end
-coroutine.wrap(NXRVCMO_fake_script)()
+coroutine.wrap(RXXAA_fake_script)()
+
 GUI = Main.Frame2.PopupFrame.PopupFrame
 pos = 0
 
@@ -2626,39 +2887,7 @@ CmdBar.FocusLost:connect(function()
 	if string.sub(CmdBar.Text, 1, 10) == "unloopmute" then
 		_G.mute = false
 	end
-	if string.sub(CmdBar.Text, 1, 5) == "equip" then
-		equip()
-	end
 
-if string.sub(CmdBar.Text, 1,3) == "bplay" then
-        
-    id = message:sub(5)
-    
-            for _,v in pairs(plr.Backpack:GetChildren()) do
-        if v:IsA("Tool") and string.lower(v.Name) == "boombox" then v.Parent = plr.Character end
-    end
-    
-    for _,v in pairs(plr.Character:GetChildren()) do
-        local zeros = 199950
-        if v:IsA("Tool") and string.lower(v.Name) == "boombox" then v:FindFirstChildOfClass("RemoteEvent"):FireServer("PlaySong", ("0"):rep(zeros)..id, 1, 0, 0) end
-    end
-    
-    wait(.6)
-    
-    for _,v in pairs(plr.Character:GetChildren()) do
-        if v:IsA("Tool") and string.lower(v.Name) == "boombox" then plr.Character.Humanoid:UnequipTools() end
-    end
-    
-    wait(.6)
-    
-    for _,v in pairs(plr.Backpack:GetChildren()) do
-        if v:IsA("Tool") and string.lower(v.Name) == "boombox" then
-            v.Handle.Sound.TimePosition = 0
-            v.Handle.Sound.Playing = true
-        end
-    end
-    
-    end
 	if string.sub(CmdBar.Text, 1, 5) == "dupe " then
 		if not tonumber(string.sub(CmdBar.Text, 6)) then
 		else
@@ -2667,24 +2896,24 @@ if string.sub(CmdBar.Text, 1,3) == "bplay" then
 		end
 	end
 
-if string.sub(CmdBar.Text, 1,8) == "lowhold" then
-    	if plr.Character:FindFirstChild("Animate").Disabled == true then return end
-    	plr.Character.Humanoid:UnequipTools()
-    	
-    	plr.Character:FindFirstChild("Animate"):FindFirstChild("toolnone"):FindFirstChild("ToolNoneAnim").AnimationId = "nil"		
-    	plr.Character.Humanoid:UnequipTools()
-    	
-    	for _,t in pairs(plr.Backpack:GetChildren()) do
-    		if t:IsA("Tool") and t:FindFirstChild("Handle") and t:FindFirstChild("Handle"):FindFirstChild("Sound") then
-    			t.GripForward = Vector3.new(-0, -1, 0)
-    			t.GripPos = Vector3.new(0.02, 0.71, 0)
-    			t.GripRight = Vector3.new(0, 0, 1)
-    			t.GripUp = Vector3.new(1, -0, 0)
-    			t.Handle.Massless = true
-    			t.Parent = plr.Character
-    		end
-    	end	
-    end
+	if string.sub(CmdBar.Text, 1,8) == "lowhold" then
+		if plr.Character:FindFirstChild("Animate").Disabled == true then return end
+		plr.Character.Humanoid:UnequipTools()
+
+		plr.Character:FindFirstChild("Animate"):FindFirstChild("toolnone"):FindFirstChild("ToolNoneAnim").AnimationId = "nil"		
+		plr.Character.Humanoid:UnequipTools()
+
+		for _,t in pairs(plr.Backpack:GetChildren()) do
+			if t:IsA("Tool") and t:FindFirstChild("Handle") and t:FindFirstChild("Handle"):FindFirstChild("Sound") then
+				t.GripForward = Vector3.new(-0, -1, 0)
+				t.GripPos = Vector3.new(0.02, 0.71, 0)
+				t.GripRight = Vector3.new(0, 0, 1)
+				t.GripUp = Vector3.new(1, -0, 0)
+				t.Handle.Massless = true
+				t.Parent = plr.Character
+			end
+		end	
+	end
 
 	if string.sub(CmdBar.Text, 1, 8) == "stopdupe" then
 		stopDupe = true
@@ -2725,5 +2954,7 @@ CmdBar.Changed:connect(function()
 		end
 	end
 end)
+
+Main:TweenSize(UDim2.new(0, 507,0, 288), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .6, true)
 
 
